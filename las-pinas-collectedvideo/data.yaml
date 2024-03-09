@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['bench', 'car', 'construction_materials', 'cracked_pavement', 'garbage', 'lamp_post', 'motorcycle', 'potted_plant', 'street_sign', 'street_vendor_cart', 'tree', 'tricycle', 'utility_post']
+
+roboflow:
+  workspace: thesissidewalkdata
+  project: las-pinas-collectedvideo
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesissidewalkdata/las-pinas-collectedvideo/dataset/2
